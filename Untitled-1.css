@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #212529;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: #f44336;
+}
+.navbar-brand:hover {
+    color: #ff7961;
+}
+.nav-link {
+    color: #fff;
+    transition: color 0.3s;
+}
+.nav-link:hover {
+    color: #ff7961;
+}
+.dropdown-menu {
+    background-color: #333;
+    border: none;
+}
+.dropdown-item {
+    color: #fff;
+}
+.dropdown-item:hover {
+    background-color: #444;
+    color: #ff7961;
+}
+
+/* Carousel Styles */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 5px;
+}
+.carousel-image {
+    height: 400px; /* Ajusta la altura según tu diseño */
+    object-fit: cover; 
+    object-position: center; 
+}
+
+
+/* Buttons */
+.btn {
+    border-radius: 5px;
+}
+.btn-primary {
+    background-color: #f44336;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #ff7961;
+}
+
+/* Search Bar */
+input[type="search"] {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+input[type="search"]:focus {
+    border-color: #f44336;
+    outline: none;
+    box-shadow: 0 0 5px rgba(244, 67, 54, 0.5);
+}
+
+/* Footer */
+footer {
+    background-color: #212529;
+    color: #aaa;
+    padding: 20px 0;
+    text-align: center;
+}
+footer a {
+    color: #ff7961;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Modal */
+.modal-header {
+    background-color: #f44336;
+    color: #fff;
+}
+.modal-content {
+    border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 300px;
+    }
+}
