@@ -25,25 +25,29 @@
     </nav>
 
     <!-- Contenido Principal -->
-    <div class="container my-5">
-        <h1>Contacto</h1>
-        <p>Si tienes alguna sugerencia o pregunta, por favor llena el siguiente formulario.</p>
-        <form>
-            <div class="mb-3">
-                <label for="name" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre">
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Correo Electrónico</label>
-                <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
-            </div>
-            <div class="mb-3">
-                <label for="suggestion" class="form-label">Sugerencia</label>
-                <textarea class="form-control" id="suggestion" rows="4" placeholder="Escribe tu sugerencia"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
-    </div>
+<div class="container my-5">
+    <h1>Contacto</h1>
+    <p>Si tienes alguna sugerencia o pregunta, por favor llena el siguiente formulario.</p>
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre" required>
+            <div class="invalid-feedback">Por favor, ingresa tu nombre.</div>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico" required>
+            <div class="invalid-feedback">Por favor, ingresa un correo electrónico válido.</div>
+        </div>
+        <div class="mb-3">
+            <label for="suggestion" class="form-label">Sugerencia</label>
+            <textarea class="form-control" id="suggestion" rows="4" placeholder="Escribe tu sugerencia" required></textarea>
+            <div class="invalid-feedback">Por favor, escribe tu sugerencia.</div>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
+
 
     <!-- Footer -->
     <footer class="bg-dark text-light py-4">

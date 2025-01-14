@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caos News</title>
+    <title>lista de noticias</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -169,71 +169,66 @@
     });
 </script>
 
-
-    <!-- contenido principal -->
+    <!-- Contenido de Lista de Noticias -->
     <div class="container my-4">
-        <!-- Carousel -->
-        <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <a href="noticia1.html">
-                        <img src="images/Helldivers-2-iluminados.jpeg" class="d-block w-100 carousel-image" alt="...">
-                    </a>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Listo para la batalla Helldiver</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <a href="noticia2.html">
-                        <img src="images/keanu_armored core.PNG" class="d-block w-100 carousel-image" alt="...">
-                    </a>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Keanu Reeves en Armored Core</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <a href="noticia3.html">
-                        <img src="images/iphone 15 pro.PNG" class="d-block w-100 carousel-image" alt="...">
-                    </a>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>iPhone la sigue cagando</h5>
+        <h1 class="mb-4">Lista de Noticias</h1>
+        <div class="row">
+            <!-- Noticia 1 -->
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">listo para la batalla helldiver</h5>
+                        <p class="card-text"><strong>Autor:</strong> Juan Pérez</p>
+                        <p class="card-text"><strong>Fecha:</strong> 12 de enero de 2025</p>
+                        <p class="card-text">llegada de la nueva expansion de los iluminados en helldivers2 game.</p>
+                        <a href="noticia1.html" class="btn btn-primary">Leer más</a>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+
+            <!-- Noticia 2 -->
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">armored core en secret level</h5>
+                        <p class="card-text"><strong>Autor:</strong> María López</p>
+                        <p class="card-text"><strong>Fecha:</strong> 11 de enero de 2025</p>
+                        <p class="card-text">cameo del juego armored core 6 en serie de amazon prime</p>
+                        <a href="noticia2.html" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        
 
-        <!-- Search Bar -->
-        <div class="my-4">
-            <input class="form-control" type="search" placeholder="Buscar por periodista, categoría o palabra clave" aria-label="Search">
+        <!-- Más Noticias -->
+        <div class="row">
+            <!-- Noticia 3 -->
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">ihone la sigue cagando</h5>
+                        <p class="card-text"><strong>Autor:</strong> Rosa Melo</p>
+                        <p class="card-text"><strong>Fecha:</strong> 10 de enero de 2025</p>
+                        <p class="card-text">me carga iPhone</p>
+                        <a href="noticia3.html" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Noticia 4 -->
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Título de la Noticia 4</h5>
+                        <p class="card-text"><strong>Autor:</strong> Laura Méndez</p>
+                        <p class="card-text"><strong>Fecha:</strong> 9 de enero de 2025</p>
+                        <p class="card-text">Descripción de la noticia 4. Trata sobre eventos internacionales.</p>
+                        <a href="noticia4.html" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
         </div>
-
-       <!-- News Categories -->
-<div class="row">
-    <div class="col-md-4">
-        <h5>Lista de Noticias</h5>
-        <ul id="newsList" class="list-group">
-            <!-- Noticias dinámicas -->
-        </ul>
     </div>
-    <div class="col-md-4">
-        <h5>Categoría 2</h5>
-        <p>Zona morzillera.</p>
-    </div>
-    <div class="col-md-4">
-        <h5>Agregar Noticias</h5>
-        <p>Portal de noticias de nuestros usuarios.</p>
-    </div>
-</div>
-
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3 mt-4">
@@ -244,4 +239,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
